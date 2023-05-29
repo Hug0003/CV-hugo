@@ -1,0 +1,178 @@
+/* CSS permet de faire de préparer visuellement le contenu du site, ou CV pour ma part */
+
+/* Initie le body, couleur, centrer les elements */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(to right, #141311, #00274b) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+/* permet de mettre une photo dans un cadre, de la centrer, mettre sa taille sa position et le cursor */
+.container-card {
+    position: relative;
+    top:200;
+    left:250;
+}
+.card {
+    width: 400px;
+    height: 600px;
+    background: rgb(255, 255, 255);
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    background-image: url('photo_CV.JPG');
+    background-size: cover;
+    background-position: center;
+    transform: scale(1);
+}
+
+/* plusieurs photos de moi installées2 aux coins du site sur la 2eme page */
+
+
+
+.photo-4{
+    width: 200px;
+    height: 400px;
+    left:50px;
+    top: 50px;
+    background-image: url('photo_CV4.JPG');
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+/* faire les blocs qui apparaissent, les 2 blocs blancs, sa taille, sa position , couleur, le faite qu'il passe en dessous de la photo */
+.bloc-focus-top, .bloc-focus-bottom {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+    
+}
+.bloc-focus-top {
+    background: white;
+    top: 0;
+    left: 0;
+}
+.bloc-focus-bottom {
+    background: rgb(255, 255, 255);
+    bottom: 0;
+    right: 0;
+}   
+
+
+/* faire les 2 ronds de la page 2 qui passe en dessous le blocs infos, sa taille, position, couleur */
+.cercle-focus-top, .cercle-focus-bottom {
+    width: 200px;
+    height: 200px;
+    background: white;
+    z-index: -1;
+    border-radius: 100px;
+    position: relative;
+    
+}
+.cercle-focus-bottom {
+    top: 280px;
+    left: -80px;
+}
+.cercle-focus-top {
+    bottom: 280px;
+    left: 80px;
+}   
+
+
+/* les 2 blocs infos avec mes infos qui sont avec un effet de verre transparent, sa taille, les bords arrondies, l'ombre, position */
+.bloc-info, .bloc-info-2{
+	width: 400px;
+	height: 600px;
+    border-radius: 10px;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}  
+.bloc-info{
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+
+}
+.bloc-info-2{
+    position:absolute;
+    top: 100;
+    left: 100;
+    z-index: 1;
+}
+
+
+/* tout cela permet de mettre des paramètres aux textes et aux liens, les soulignements... comme la couleur la postion la taille */
+#a1{
+    color: white;
+    position: relative;
+    top:430px;
+    left:900px;
+}
+#a2{
+    color:white;
+    position:relative;
+    top:430px;
+    right: 500px;
+}
+#hr1{
+    width: 240px;
+}
+#hr2{
+    width:120px;
+}
+#hr3{
+    width:60px;
+}
+#hr4{
+    width: 70px;
+}
+#h2-1{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+#h3-1{
+    font-size: 22px;
+    text-align: left;
+    color: white;
+}
+#h4-1{
+    color: white;
+}
+#p1{
+    color:#00274b
+}
+#p2{
+    color: white;
+}
+#p3{
+    color: white;
+    font-size: 15px;
+}
+#a1{
+    color: white;
+}
+
+
