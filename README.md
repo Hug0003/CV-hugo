@@ -7,10 +7,8 @@ Bienvenue dans le dépôt de mon site web CV personnel. Ce projet met en avant m
 - [À propos](#à-propos)
 - [Fonctionnalités](#fonctionnalités)
 - [Technologies utilisées](#technologies-utilisées)
-- [Prise en main](#prise-en-main)
 - [Utilisation](#utilisation)
 - [Contact](#contact)
-- [Licence](#licence)
 
 ## À propos
 
