@@ -1,6 +1,6 @@
 # CV de Hugo
 
-Bienvenue dans le dépôt de mon site web CV personnel. Ce projet met en avant mon expérience professionnelle, mes compétences et mes projets, offrant une plateforme interactive et informative pour les employeurs potentiels et les collaborateurs.
+Bienvenue dans le dépôt de mon site web CV personnel. Ce projet met en avant mes compétences et qui je suis, ça reste un CV très vague
 
 ## Table des Matières
 
@@ -8,17 +8,15 @@ Bienvenue dans le dépôt de mon site web CV personnel. Ce projet met en avant m
 - [Fonctionnalités](#fonctionnalités)
 - [Technologies utilisées](#technologies-utilisées)
 - [Utilisation](#utilisation)
-- [Contact](#contact)
 
 ## À propos
 
-Ce projet est un site web CV personnel qui met en avant mon parcours en ingénierie informatique, avec un accent sur le développement web et la cybersécurité. Il comprend des sections détaillant ma formation, mon expérience professionnelle, mes compétences et mes projets notables.
+Ce projet est un site web CV personnel qui met en avant mon parcours en scolaire, avec un accent sur le développement web. Il comprend des sections détaillant ma formation et mes compétences.
+Le CV reste avant tout un exercice d'apprentissage 
 
 ## Fonctionnalités
 
-- **Design responsive** : Compatible avec divers appareils et tailles d’écran.
 - **Éléments interactifs** : Composants d’interface utilisateur attrayants pour améliorer l’expérience utilisateur.
-- **Présentation de projets** : Descriptions détaillées et liens vers mes projets les plus significatifs.
 - **Informations de contact** : Accès facile à mes coordonnées professionnelles.
 
 ## Technologies utilisées
@@ -29,7 +27,6 @@ Ce projet est un site web CV personnel qui met en avant mon parcours en ingénie
 - **GSAP** : Pour les animations et interactions enrichies.
 
 ## Utilisation
-Explorez les différentes sections du CV pour en savoir plus sur mon parcours professionnel, mes compétences et mes projets. Le site est conçu pour fournir une vue d’ensemble complète de mes qualifications et expériences.
+Explorez les différentes sections du CV pour en savoir plus sur mon parcours et mes compétences.
 
-## Contact
-Pour toute question ou demande d’information supplémentaire, n’hésitez pas à me contacter via les coordonnées fournies sur le site.
+
