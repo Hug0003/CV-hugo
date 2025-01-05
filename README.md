@@ -1,32 +1,40 @@
-# CV de Hugo
+# Mon CV 
+## 📄 Description
+- Mon CV de 2022 dans le cadre scolaire pour un examen 
+- Vous y retrouverez mon parcours scolaire et mes passions 
 
-Bienvenue dans le dépôt de mon site web CV personnel. Ce projet met en avant mes compétences et qui je suis, ça reste un CV très vague
+## 🎥 Démo Visuelle
+![Capture d'écran 2025-01-05](https://github.com/user-attachments/assets/25b71e51-2adf-4f04-9ba7-3be7566298b5)
 
-## Table des Matières
+## ✨ Fonctionnalités
+- [x] glissement de souris sur ma photo entraine le déplacemenent de mon CV   
+- [x] changer de page avec un lien pour d'autre information sur moi  
 
-- [À propos](#à-propos)
-- [Fonctionnalités](#fonctionnalités)
-- [Technologies utilisées](#technologies-utilisées)
-- [Utilisation](#utilisation)
+## 🚀 Installation
+### Prérequis
+Pas de prérequis, car c'est de l'html css js (gsap en brut) 
+# Clonez le projet
+git clone https://github.com/Hug0003/CV-hugo.git
+# Lancez le projet
+Lancer mon CV avec live server depuis index.html
 
-## À propos
+## 📚 Usage
+Découvrir animation en gsap et me connaitre un peu plus 
 
-Ce projet est un site web CV personnel qui met en avant mon parcours en scolaire, avec un accent sur le développement web. Il comprend des sections détaillant ma formation et mes compétences.
-Le CV reste avant tout un exercice d'apprentissage 
+## 👥 Contributeurs
+- moi : [@monprofil](https://github.com/Hug0003)  
 
-## Fonctionnalités
+### Contribuer
+Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
 
-- **Éléments interactifs** : Composants d’interface utilisateur attrayants pour améliorer l’expérience utilisateur.
-- **Informations de contact** : Accès facile à mes coordonnées professionnelles.
+## 🛠️ Technologies Utilisées
+- HTML 
+- CSS
+- JS
+- GSAP
 
-## Technologies utilisées
-
-- **HTML5** : Pour structurer le contenu.
-- **CSS3** : Pour le style et la mise en page.
-- **JavaScript** : Pour les fonctionnalités interactives.
-- **GSAP** : Pour les animations et interactions enrichies.
-
-## Utilisation
-Explorez les différentes sections du CV pour en savoir plus sur mon parcours et mes compétences.
-
+## 📬 Contact
+Pour toute question, contactez-moi :  
+- GitHub : [@monprofil](https://github.com/Hug0003)  
+- E-mail : hugomeuriel@gmail.com
 
